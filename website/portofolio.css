@@ -8,7 +8,7 @@
 
 #mainContainer{
   display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-columns: repeat(7, 1fr);
 }
 
 /*******************************
@@ -20,47 +20,90 @@ body{
   font-size: 1em;
 }
 
-ul li{
-  list-style-type: none;
-  display: inline-block;
-  padding-left: 10px;
-}
-
 header{
-  grid-column: 2/3;
-  background-color: pink;
+  grid-column: 1/8;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px 50px 50px 50px;
 }
 
 header > div > h1, header > div > p{
   margin: 5px;
 }
 
-footer{
-  grid-column: 2/3;
-  background-color: mintcream;
-  text-align: right;
-  padding: 5px 20px 5px 0px;
+ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 10px;
 }
 
-footer> p{
+footer{
+  grid-column: 1/8;
+  background-color: hotpink;
+  text-align: right;
+  padding: 5px 50px 5px 0px;
+}
+
+footer > p{
   margin: 5px;
 }
 
-.past{
-  color: lightpink;
+h1{
+  color: hotpink;
+  font-family: arial, sans-serif;
 }
 
-.present{
-  color: lightgreen;
+h2{
+  color: #FFB3DE;
+  font-family: Verdana, sans-serif;
 }
 
-.future{
-  color: lightblue;
+h3{
+  color:pink;
+  font-family: fantasy, sans-serif;
+}
+
+p, a{
+  color: black;
+  font-family: sans-serif;
+}
+
+a.hn:visited, a.hn:link{
+	text-decoration: none;
+	color: black;
+}	
+
+a.hn:hover, a.hn:active{
+	border-bottom: solid #FFBCD9 5px;
+}
+
+a.ve:visited, a.ve:link{
+	text-decoration: none;
+	color: black;
+}	
+
+a.ve:hover, a.ve:active{
+	border-bottom: solid #E25098 5px;
+}
+
+a.he:visited, a.he:link{
+	text-decoration: none;
+	color: black;
+}	
+
+a.he:hover, a.he:active{
+	border-bottom: solid #F64A8A 5px;
+}
+
+a.to:visited, a.to:link{
+	text-decoration: none;
+	color: black;
+}	
+
+a.to:hover, a.to:active{
+	border-bottom: solid #FD3F92 5px;
 }
 
 /*******************************
@@ -68,8 +111,8 @@ footer> p{
  *******************************/
 
 #storyContainer{
-  grid-column: 2/3;
-  background-color: coral;
+  grid-column: 2/7;
+  background-color: #FFBCD9;
 }
 
 #storyContainer div{
@@ -77,34 +120,50 @@ footer> p{
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  border-bottom: red 2px solid;
+  border-bottom: hotpink 2px solid;
   margin: 0px 120px 0px 120px;
 }
 
 #storyContainer > p{
   text-align: center;
-  color: red;
+  color: ghostwhite;
 }
 
 #storyContainer > div > h2, #storyContainer > div > h1{
   margin: 5px;
-  color: white;
+  color: hotpink;
   font-family: Georgia, sans-serif;
 }
 
 #timeSelection{
-  grid-column: 2/3;
-  background-color: papayawhip;
+  grid-column: 2/7;
 }
 
 #timeSelection > div{
-  border: white 2px solid;
-  background-color: white; 
+  border: #FFBCD9 2px solid;
+  background-color: ghostwhite; 
   margin: 60px 120px 60px 120px;
 }
 
 #timeSelection > div > h2{
-  color: white;
-  font-family: Georgia, sans-serif;
   text-align: center;
+}
+
+/*******************************
+ *          Verleden           *  
+ *******************************/
+
+#planVanAanpak{
+grid-column: 2/7;
+background-color: cornflowerblue;
+}
+
+#presenteren{
+  grid-column: 2/5;
+  background-color: papayawhip;
+}
+
+#edumundo{
+  grid-column: 5/7;
+  background-color: goldenrod;
 }
