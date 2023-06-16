@@ -106,6 +106,15 @@ a.to:hover, a.to:active{
 	border-bottom: solid #FD3F92 5px;
 }
 
+a.ne:visited, a.ne:link{
+	text-decoration: none;
+	color: white;
+}
+
+a.ne:hover, a.ne:active{
+	border-bottom: solid #FD3F92 5px;
+}
+
 /*******************************
  *            Home             *  
  *******************************/
@@ -120,8 +129,8 @@ a.to:hover, a.to:active{
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  border-bottom: hotpink 2px solid;
-  margin: 0px 120px 0px 120px;
+  border-bottom: hotpink 5px solid;
+  margin: 0px 100px 0px 100px;
 }
 
 #storyContainer > p{
@@ -142,7 +151,7 @@ a.to:hover, a.to:active{
 #timeSelection > div{
   border: #FFBCD9 2px solid;
   background-color: ghostwhite; 
-  margin: 60px 120px 60px 120px;
+  margin: 60px 100px 60px 100px;
 }
 
 #timeSelection > div > h2{
@@ -155,15 +164,68 @@ a.to:hover, a.to:active{
 
 #planVanAanpak{
 grid-column: 2/7;
-background-color: cornflowerblue;
+background-color: bisque;
+}
+
+#gantchart{
+  width: 90px;
+  height: 50px;
 }
 
 #presenteren{
   grid-column: 2/5;
-  background-color: papayawhip;
+  background-color: beige;
 }
 
 #edumundo{
+  grid-column: 6/7;
+  background-color: antiquewhite;
+}
+
+/*******************************
+ *            Heden            *  
+ *******************************/
+
+#communiceren{
+grid-column: 2/7;
+background-color: bisque;
+}
+
+#onderzoek{
+  grid-column: 2/7;
+  background-color: beige;
+}
+
+#rapporteren{
+  grid-column: 2/4;
+  background-color: antiquewhite;
+}
+
+#vullingEen{
   grid-column: 5/7;
-  background-color: goldenrod;
+  background-color: burlywood;
+}
+
+/*******************************
+ *           Toekomst          *  
+ *******************************/
+
+#feedback{
+grid-column: 2/7;
+background-color: burlywood;
+}
+
+#pop{
+  grid-column: 2/7;
+  background-color: antiquewhite;
+}
+
+#vullingTwee{
+  grid-column: 2/4;
+  background-color: beige;
+}
+
+#hoogeschooltaal{
+  grid-column: 5/7;
+  background-color: bisque;
 }
