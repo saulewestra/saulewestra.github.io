@@ -4,6 +4,8 @@
   - Arial      (Neutraal maar dikker)
   - fantasy    (Dik en smal)
   - Verdana    (Neutraal maar groter en breeder)
+
+  alle a naar hn veranderen
   */
 
 #mainContainer{
@@ -53,6 +55,7 @@ footer > p{
 h1{
   color: hotpink;
   font-family: arial, sans-serif;
+  text-align: center;
 }
 
 h2{
@@ -178,8 +181,14 @@ background-color: bisque;
 }
 
 #edumundo{
-  grid-column: 6/7;
+  grid-column: 5/7;
   background-color: antiquewhite;
+}
+
+.button{
+  border: 5px #E25098 solid;
+  background-color: #FFBCD9;
+  padding: 10px;
 }
 
 /*******************************
@@ -225,7 +234,7 @@ background-color: burlywood;
   background-color: beige;
 }
 
-#hoogeschooltaal{
+#hogeschooltaal{
   grid-column: 5/7;
   background-color: bisque;
 }
