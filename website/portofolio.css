@@ -5,7 +5,8 @@
   - fantasy    (Dik en smal)
   - Verdana    (Neutraal maar groter en breeder)
 
-  alle a naar hn veranderen
+  - alle a naar hn veranderen
+  - alle ul en ol moeten een aparte class hebben
   */
 
 #mainContainer{
@@ -79,7 +80,7 @@ a.hn:visited, a.hn:link{
 }	
 
 a.hn:hover, a.hn:active{
-	border-bottom: solid #FFBCD9 5px;
+	border-bottom: solid #E25098 5px;
 }
 
 a.ne:visited, a.ne:link{
