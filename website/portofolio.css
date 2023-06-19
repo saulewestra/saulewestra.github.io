@@ -266,8 +266,8 @@ grid-column: 2/7;
 #feedback > div > div{
   width: 40%;
   height: auto;
-  padding: 20px;
-  margin: 20px;
+  padding: 0px 20px 20px 20px;
+  margin: 0px 20px 20px 20px;
 }
 
 #pop{
