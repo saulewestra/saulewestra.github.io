@@ -1,0 +1,241 @@
+#mainContainer{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+body{
+    font-size: 1em;
+}
+  
+h1{
+    color: #77b5fe;
+    font-family: arial, sans-serif;
+    text-align: center;
+}
+  
+h2{
+    color: #8ab9f1;
+    font-family: Verdana, sans-serif;
+}
+  
+h3{
+    color: #9bc4e2;
+    font-family: serif, sans-serif;
+}
+  
+p, a{
+    color: black;
+    font-family: sans-serif;
+}
+
+a.link:visited, a.link:link{
+	text-decoration: none;
+	color: black;
+    border-bottom: #9bc4e2 2px solid;
+}	
+
+a.link:hover, a.link:active{
+    color: white;
+	border: #9bc4e2 2px solid;
+    background-color: #9bc4e2;
+    opacity: 0.5;
+    padding: 10px 0px;
+}
+
+header{
+    grid-column: 1/8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px 50px 50px;
+}
+
+header > div > h1, header > div > p{
+    margin: 5px;
+}
+
+#reflecteren{
+    grid-column: 2/7;
+    background-color: aliceblue;
+}
+
+#reflecteren > h1{
+    border-bottom: #77b5fe 5px solid;
+    margin: 50px;
+    padding: 20px;
+}
+  
+#reflecteren > p{
+    text-align: center;
+    padding: 0px 40px;
+}
+
+#feedback{
+    grid-column: 2/7;
+}
+
+#feedback > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#feedback > div > div{
+    border: aliceblue 5px solid;
+    width: 40%;
+    height: auto;
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+#pop{
+    grid-column: 2/7;
+    background-color: aliceblue;
+}
+
+#pop > p{
+    text-align: center;
+}
+
+#pop > div{
+    display: flex;
+    flex-direction: row;
+}
+
+#pop > div > div{
+    border: white 2px solid;
+    background-color: white;
+    width: 30%;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+}
+
+#planVanAanpak{
+    grid-column: 2/7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#planVanAanpak > #planHoofdstuk{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#planVanAanpak > div > div{
+    border: aliceblue 5px solid;
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+#gantchart{
+    width: 900px;
+    height: 420px;
+}
+
+#communiceren{
+    grid-column: 2/7;
+    background-color: aliceblue;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#communiceren > p{
+    padding: 0px 40px;
+}
+
+#communiceren > div > div{
+    border: white 2px solid;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+#presenteren{
+    grid-column: 2/7;
+}
+
+#presenteren > p{
+    text-align: center;
+}
+
+#edumundo{
+    grid-column: 2/7;
+}
+
+#edumundo > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#edumundo > div > div{
+    border: aliceblue 2px solid;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 20px;
+}
+
+#onderzoek{
+    grid-column: 2/7;
+}
+
+#onderzoek > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#onderzoek > div > div{
+    border: aliceblue 5px solid;
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+#rapporteren{
+    grid-column: 2/7;
+    background-color: aliceblue;
+}
+
+#rapporteren > div{
+    display: flex;
+    flex-direction: column;
+}
+
+#rapporteren > div > div > h2, #rapporteren > div > div > p{
+    text-align: center;
+    padding: 0px 40px;
+}
+
+#resultaten > div{
+    display: flex;
+    flex-direction: row;
+}
+
+#resultaten > div > div{
+    border: white 2px solid;
+    background-color: white;
+    width: 30%;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+}
+
+footer{
+    grid-column: 1/8;
+    background-color: #77b5fe;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer > p{
+    margin: 5px;
+}
